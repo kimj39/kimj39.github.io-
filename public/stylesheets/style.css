@@ -25,9 +25,11 @@ time, mark, audio, video {
 
 .header {
 	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	text-align: center;
 	color: white;
 }
 
 * {
-	background-color: blue;
+	background-color: black;
 }
