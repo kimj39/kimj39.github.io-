@@ -45,6 +45,7 @@ time, mark, audio, video {
 	text-align: center;
 	float: right;
 	display: block;
+	margin-bottom: 0px;
 }
 
 .navOp:hover {
