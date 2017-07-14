@@ -24,7 +24,7 @@ $(document).ready(function(){
 //   $("#content").load("Resources/jiwookimCSresume.pdf");
 // });
 
-$(".navBar").on('click', function(e){
+$(".navbar").on('click', function(e){
   // var myId = e.target.id;
   console.log(e);
   // if (myId === "navOp") {
