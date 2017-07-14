@@ -1,6 +1,7 @@
 
 /* Loads About Me when page is opened*/
 $(document).ready(function(){
-     alert("Load was performed");
+    $('#content').fadeIn(500);
+    $('#content').fadeTo("slow",0.9); 
     $("#content").load("public/views/about.html #about");
 });
