@@ -1,8 +1,8 @@
 
-// /* Loads About Me when page is opened*/
-// $(document).ready(function(){
-//     $("#content").load("public/views/about.html #about");
-// });
+/* Loads About Me when page is opened*/
+$(document).ready(function(){
+    $("#content").load("public/views/about.html #about");
+});
 
 // $("#miscNav").on('click', function() {
 //   $("#content").load("public/views/misc.html #misc");
@@ -25,6 +25,7 @@
 // });
 
 $(".navBar").on('click', "li", function(e) {
-    var myId = $(e.target).attr("id");
-    $("#content").load("public/views/%s.html #%s", myId);
+    // var myId = $(e.target).attr("id");
+    // $("#content").load("public/views/%s.html #%s", myId);
+    console.log("sex");
 });
