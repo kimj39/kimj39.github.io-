@@ -27,3 +27,7 @@ time, mark, audio, video {
 	font-family: 'Poiret One', cursive;
 	color: blue;
 }
+
+* {
+	background-color: blue;
+}
