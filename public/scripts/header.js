@@ -2,10 +2,6 @@
 /* Loads About Me when page is opened*/
 $(document).ready(function(){
     $("#content").load("public/views/about.html #aboutPage");
-
-    $(".navOp").on('click', function(e){
-      console.log("lol");
-  });
 });
 
 // $("#miscNav").on('click', function() {
@@ -27,3 +23,7 @@ $(document).ready(function(){
 // $("#resumeNav").on('click', function() {
 //   $("#content").load("Resources/jiwookimCSresume.pdf");
 // });
+
+$(".navBar").on('click', function(e){
+  alert("lol");
+});
