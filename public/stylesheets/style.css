@@ -31,11 +31,21 @@ time, mark, audio, video {
 }
 
 .navbar {
+    padding :0 2%;
+	position: fixed;
+}
+
+.navOp {
+	padding: 14px 16px;
 	font-family: 'Poiret One', cursive;
 	font-size: 200%;
 	color: white;
-    padding :0 2%;
-	position: fixed;
+	text-align: center;
+	float: right;
+}
+
+.navOp::hover {
+	color: yellow;
 }
 
 * {
