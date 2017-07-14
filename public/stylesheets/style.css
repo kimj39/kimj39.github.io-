@@ -54,3 +54,7 @@ time, mark, audio, video {
 * {
 	background-color: black;
 }
+
+p {
+	color: white;
+}
