@@ -35,7 +35,6 @@ time, mark, audio, video {
 	position: fixed;
 	list-style-type: none;
 	margin-bottom: 0px;
-	border-bottom: 0px;
 }
 
 .navOp {
@@ -46,8 +45,6 @@ time, mark, audio, video {
 	text-align: center;
 	float: right;
 	display: block;
-	margin-bottom: 0px;
-	border-bottom: 0px;
 }
 
 .navOp:hover {
