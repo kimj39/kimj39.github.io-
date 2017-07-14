@@ -47,7 +47,7 @@ time, mark, audio, video {
 	display: block;
 }
 
-.navOp::hover {
+.navOp:hover {
 	color: yellow;
 }
 
