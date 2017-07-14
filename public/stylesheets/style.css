@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-h1 {
+.test {
 	font-family: 'Poiret One', cursive;
 	color: blue;
 }
