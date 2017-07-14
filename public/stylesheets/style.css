@@ -34,6 +34,7 @@ time, mark, audio, video {
     padding :0 2%;
 	position: fixed;
 	list-style-type: none;
+	border-bottom-width: 0px;
 }
 
 .navOp {
