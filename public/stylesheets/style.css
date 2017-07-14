@@ -30,6 +30,14 @@ time, mark, audio, video {
 	color: white;
 }
 
+.navbar {
+	font-family: 'Poiret One', cursive;
+	font-size: 200%;
+	color: white;
+    padding :0 2%;
+	position: fixed;
+}
+
 * {
 	background-color: black;
 }
