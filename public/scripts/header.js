@@ -25,5 +25,9 @@ $(document).ready(function(){
 // });
 
 $(".navBar").on('click', function(e){
-  alert("lol");
+  var myId = e.target.id;
+  console.log(e.target.id);
+  if (myId === "navOp") {
+    $("#content").load("public/views/%s.html #%sPage", myId);
+  }
 });
