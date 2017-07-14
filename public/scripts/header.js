@@ -1,6 +1,6 @@
 
 /* Loads About Me when page is opened*/
 $(document).ready(function(){
+     alert("Load was performed");
     $("#content").load("../views/about.html");
-    alert("Load was performed");
 });
