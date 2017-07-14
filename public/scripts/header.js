@@ -24,6 +24,6 @@ $(document).ready(function(){
 //   $("#content").load("Resources/jiwookimCSresume.pdf");
 // });
 
-$('.navBar').on('click', function(e){
+$('.navOp').on('click', function(e){
 console.log('lol');
 });
