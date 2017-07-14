@@ -24,8 +24,6 @@ $(document).ready(function(){
 //   $("#content").load("Resources/jiwookimCSresume.pdf");
 // });
 
-$(".navBar").on('click', function(e) {
-    // var myId = $(e.target).attr("id");
-    // $("#content").load("public/views/%s.html #%s", myId);
-    console.log("sex");
+$('.navbar').on('click', function(e){
+console.log('lol');
 });
