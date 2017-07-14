@@ -29,6 +29,6 @@ $(".navbar").on('click', function(e){
   if (myClass === "navOp") {
     var myId = e.target.id;
     console.log(myId);
-    // $("#content").load("public/views/%s.html #%sPage", myId);
+    $("#content").load("public/views/%s.html #%sPage", myId, myId);
   }
 });
