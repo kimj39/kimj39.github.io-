@@ -25,9 +25,10 @@ $(document).ready(function(){
 // });
 
 $(".navbar").on('click', function(e){
-  // var myId = e.target.id;
-  console.log(e);
-  // if (myId === "navOp") {
+  var myClass = e.target.className;
+  console.log(myClass);
+  // if (myClass === "navOp") {
+    // var myId = e.target.id;
   //   $("#content").load("public/views/%s.html #%sPage", myId);
   // }
 });
