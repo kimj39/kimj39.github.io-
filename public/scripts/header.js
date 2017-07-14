@@ -1,25 +1,30 @@
 
-/* Loads About Me when page is opened*/
-$(document).ready(function(){
-    $("#content").load("public/views/about.html #about");
-});
+// /* Loads About Me when page is opened*/
+// $(document).ready(function(){
+//     $("#content").load("public/views/about.html #about");
+// });
 
-$("#miscNav").on('click', function() {
-  $("#content").load("public/views/misc.html #misc");
-});
+// $("#miscNav").on('click', function() {
+//   $("#content").load("public/views/misc.html #misc");
+// });
 
-$("#projectsNav").on('click', function() {
-  $("#content").load("public/views/projects.html #projects");
-});
+// $("#projectsNav").on('click', function() {
+//   $("#content").load("public/views/projects.html #projects");
+// });
 
-$("#educationNav").on('click', function() {
-  $("#content").load("public/views/education.html #education");
-});
+// $("#educationNav").on('click', function() {
+//   $("#content").load("public/views/education.html #education");
+// });
 
-$("#aboutNav").on('click', function() {
-  $("#content").load("public/views/about.html #about");
-});
+// $("#aboutNav").on('click', function() {
+//   $("#content").load("public/views/about.html #about");
+// });
 
-$("#resumeNav").on('click', function() {
-  $("#content").load("Resources/jiwookimCSresume.pdf");
+// $("#resumeNav").on('click', function() {
+//   $("#content").load("Resources/jiwookimCSresume.pdf");
+// });
+
+$(".navBar").on('click', "li", function(e) {
+    var myId = $(e.target).attr("id");
+    $("#content").load("public/views/%s.html #%s", myId);
 });
