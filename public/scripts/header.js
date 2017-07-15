@@ -28,8 +28,6 @@ $(".navbar").on('click', function(e){
   var myClass = e.target.className;
   if (myClass === "navOp") {
     var myId = e.target.id;
-    var filePath = "public/views/%s.html #%sPage";
-    filePath.replace(/%s/g, myId);
-    $("#content").load(filePath);
+    $("#content").load("public/views/%{myId}.html #%{myId}Page");
   }
 });
