@@ -48,7 +48,7 @@ time, mark, audio, video {
 	display: block;
 }
 
-.navOp:hover, #resume a:hover {
+.navOp:hover, #resume:hover {
 	color: yellow;
 	text-decoration: none;
 }
