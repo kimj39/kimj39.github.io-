@@ -48,15 +48,14 @@ time, mark, audio, video {
 	display: block;
 }
 
-.navOp:hover, #resume li:hover a {
-	color: yellow;
-	text-decoration: none;
-}
-
 #resume a:link, #resume a:visited, #resume a:active {
 	color: white;
 }
 
+.navOp:hover, #resume a:hover {
+	color: yellow;
+	text-decoration: none;
+}
 
 * {
 	background-color: black;
