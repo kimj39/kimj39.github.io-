@@ -52,7 +52,7 @@ time, mark, audio, video {
 	color: white;
 }
 
-.navOp:hover, #resume a:hover {
+.navText:hover, #resume a:hover {
 	color: yellow;
 	text-decoration: none;
 }
