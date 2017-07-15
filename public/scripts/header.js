@@ -4,10 +4,6 @@ $(document).ready(function(){
     $("#content").load("public/views/about.html #aboutPage");
 });
 
-$("#resume").on('click', function() {
-  $("#content").load("Resources/jiwookimCSresume.pdf");
-});
-
 $(".navbar").on('click', function(e){
   var myClass = e.target.className;
   if (myClass === "navOp") {
