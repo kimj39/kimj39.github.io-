@@ -52,6 +52,11 @@ time, mark, audio, video {
 	color: yellow;
 }
 
+#resume a:link, #resume a:visited, #resume a:active {
+	color: white;
+}
+
+
 * {
 	background-color: black;
 }
