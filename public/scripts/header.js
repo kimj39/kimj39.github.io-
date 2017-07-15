@@ -4,6 +4,7 @@ $(document).ready(function(){
     $("#content").load("public/views/about.html #aboutPage");
 });
 
+/* Loads corresponding page when selected in Nav Bar */
 $(".navbar").on('click', function(e){
   var myClass = e.target.className;
   if (myClass === "navOp") {
